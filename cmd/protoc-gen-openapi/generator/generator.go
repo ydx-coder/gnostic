@@ -544,6 +544,7 @@ func (g *OpenAPIv3Generator) buildOperationV3(
 	// Create the operation.
 	op := &v3.Operation{
 		Tags:        []string{tagName},
+		Summary:     strings.Split(description, ".")[0],
 		Description: description,
 		OperationId: operationID,
 		Parameters:  parameters,
