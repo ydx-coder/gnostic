@@ -1,4 +1,4 @@
-module github.com/google/gnostic
+module github.com/ydx-coder/gnostic
 
 go 1.12
 
@@ -6,7 +6,7 @@ require (
 	github.com/docopt/docopt-go v0.0.0-20180111231733-ee0de3bc6815
 	github.com/flowstack/go-jsonschema v0.1.1
 	github.com/golang/protobuf v1.5.2
-	github.com/kr/pretty v0.2.0 // indirect
+	github.com/google/gnostic v0.6.9
 	github.com/stoewer/go-strcase v1.2.0
 	golang.org/x/tools v0.0.0-20190524140312-2c0ae7006135
 	google.golang.org/genproto v0.0.0-20220107163113-42d7afdf6368
